@@ -10,7 +10,7 @@ program
     .option("-c, --count <number>", "number of processes")
 
 var options = program.parse().opts()
-const count = parseInt(options.count) || 6
+const count = parseInt(options.count) || 11
 console.log(`starting ${count} processes`.yellow)
 
 for(var i = 0; i < count; i++){
